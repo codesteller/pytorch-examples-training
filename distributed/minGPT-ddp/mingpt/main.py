@@ -12,6 +12,7 @@ import hydra
 def ddp_setup():
     init_process_group(backend="nccl")
     torch.cuda.set_device(int(os.environ["LOCAL_RANK"]))
+    print("GPU Devices: {}".format(int(os.environ["LOCAL_RANK"])))
 
 def get_train_objs(gpt_cfg: GPTConfig, opt_cfg: OptimizerConfig, data_cfg: DataConfig):
     dataset = CharDataset(data_cfg)

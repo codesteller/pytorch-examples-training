@@ -34,12 +34,19 @@ super_resolution/model_epoch_1.pth
 time_sequence_prediction/traindata.pt
 vision_transformer/best-weights.pt
 vision_transformer/dataset/
+.hydra/
+
 
 # files
 *.pt
 *.pth
 *.png
-*/*.jpg
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.log
+
 
 
 
