@@ -22,3 +22,24 @@ docs/venv
 # development
 .vscode
 **/.DS_Store
+*__pycache__*
+
+# development
+check_compatibility.log
+imagenet/checkpoint.pth.tar
+imagenet/model_best.pth.tar
+imagenet/sample/
+super_resolution/dataset/
+super_resolution/model_epoch_1.pth
+time_sequence_prediction/traindata.pt
+vision_transformer/best-weights.pt
+vision_transformer/dataset/
+
+# files
+*.pt
+*.pth
+*.png
+*/*.jpg
+
+
+
