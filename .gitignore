@@ -35,6 +35,7 @@ time_sequence_prediction/traindata.pt
 vision_transformer/best-weights.pt
 vision_transformer/dataset/
 .hydra/
+coco-dataset/
 
 
 # files
